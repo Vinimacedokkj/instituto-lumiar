@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Instituto Lumiar</title>
+    <link rel="stylesheet" href="styles/cursos.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader"></div>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Instituto Lumiar</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html" class="active">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="matricula.html" class="cta-nav">Matrícula</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Nossos Cursos</h1>
+            <p>Escolha a formação ideal para sua carreira</p>
+        </div>
+    </section>
+
+    <!-- Filtros -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="tecnico">Técnicos</button>
+                <button class="filter-btn" data-filter="profissionalizante">Profissionalizantes</button>
+                <button class="filter-btn" data-filter="livre">Livres</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lista de Cursos -->
+    <section class="courses-list">
+        <div class="container">
+            <div class="courses-grid">
+                <!-- Curso 1 -->
+                <div class="course-card" data-category="tecnico">
+                    <div class="course-header">
+                        <div class="course-icon">📚</div>
+                        <span class="course-badge tecnico">Técnico</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Técnico em Informática</h3>
+                        <p>Formação completa em tecnologia da informação com foco prático em desenvolvimento, redes e manutenção de sistemas.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 18 meses</span>
+                            <span class="meta-item">💻 Presencial</span>
+                            <span class="meta-item">📋 1200h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=informatica" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="course-card" data-category="tecnico">
+                    <div class="course-header">
+                        <div class="course-icon">💼</div>
+                        <span class="course-badge tecnico">Técnico</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Administração Empresarial</h3>
+                        <p>Desenvolva habilidades gerenciais e estratégicas para o mercado, com foco em gestão de pessoas e processos.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 24 meses</span>
+                            <span class="meta-item">💻 Híbrido</span>
+                            <span class="meta-item">📋 1600h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=administracao" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="course-card" data-category="profissionalizante">
+                    <div class="course-header">
+                        <div class="course-icon">🎨</div>
+                        <span class="course-badge profissionalizante">Profissionalizante</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Design Gráfico</h3>
+                        <p>Crie projetos visuais impactantes com ferramentas profissionais. Aprenda desde conceitos básicos até técnicas avançadas.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 12 meses</span>
+                            <span class="meta-item">💻 Online</span>
+                            <span class="meta-item">📋 800h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=design" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 4 -->
+                <div class="course-card" data-category="tecnico">
+                    <div class="course-header">
+                        <div class="course-icon">🔧</div>
+                        <span class="course-badge tecnico">Técnico</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Mecânica Automotiva</h3>
+                        <p>Especialização completa em manutenção e reparo de veículos, incluindo sistemas elétricos e eletrônicos modernos.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 20 meses</span>
+                            <span class="meta-item">💻 Presencial</span>
+                            <span class="meta-item">📋 1400h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=mecanica" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 5 -->
+                <div class="course-card" data-category="profissionalizante">
+                    <div class="course-header">
+                        <div class="course-icon">🍳</div>
+                        <span class="course-badge profissionalizante">Profissionalizante</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Gastronomia</h3>
+                        <p>Domine técnicas culinárias e gestão de restaurantes. Formação completa para atuar na área gastronômica.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 16 meses</span>
+                            <span class="meta-item">💻 Presencial</span>
+                            <span class="meta-item">📋 1100h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=gastronomia" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 6 -->
+                <div class="course-card" data-category="tecnico">
+                    <div class="course-header">
+                        <div class="course-icon">💉</div>
+                        <span class="course-badge tecnico">Técnico</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Enfermagem</h3>
+                        <p>Formação técnica em cuidados de saúde e assistência. Prepare-se para atuar em hospitais e clínicas.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 24 meses</span>
+                            <span class="meta-item">💻 Presencial</span>
+                            <span class="meta-item">📋 1800h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=enfermagem" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 7 -->
+                <div class="course-card" data-category="livre">
+                    <div class="course-header">
+                        <div class="course-icon">📱</div>
+                        <span class="course-badge livre">Livre</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Marketing Digital</h3>
+                        <p>Aprenda estratégias de marketing digital, redes sociais, SEO e publicidade online para impulsionar negócios.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 6 meses</span>
+                            <span class="meta-item">💻 Online</span>
+                            <span class="meta-item">📋 400h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=marketing" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 8 -->
+                <div class="course-card" data-category="livre">
+                    <div class="course-header">
+                        <div class="course-icon">💰</div>
+                        <span class="course-badge livre">Livre</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Gestão Financeira</h3>
+                        <p>Domine conceitos de finanças pessoais e empresariais, contabilidade básica e planejamento financeiro.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 4 meses</span>
+                            <span class="meta-item">💻 Híbrido</span>
+                            <span class="meta-item">📋 300h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=gestao-financeira" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Curso 9 -->
+                <div class="course-card" data-category="tecnico">
+                    <div class="course-header">
+                        <div class="course-icon">🏗️</div>
+                        <span class="course-badge tecnico">Técnico</span>
+                    </div>
+                    <div class="course-body">
+                        <h3>Edificações</h3>
+                        <p>Formação técnica em construção civil, projetos arquitetônicos e gestão de obras.</p>
+                        <div class="course-meta">
+                            <span class="meta-item">⏱ 18 meses</span>
+                            <span class="meta-item">💻 Presencial</span>
+                            <span class="meta-item">📋 1200h</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="curso-detalhe.html?curso=edificacoes" class="btn-course">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Pronto para Começar?</h2>
+            <p>Faça sua matrícula agora e garante sua vaga</p>
+            <a href="matricula.html" class="btn btn-large">Fazer Matrícula</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Instituto Lumiar</h3>
+                    <p>Formando profissionais preparados para o futuro</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>📱 (11) 98765-4321</p>
+                    <p>✉️ contato@institutolumiar.edu.br</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Instituto Lumiar. Todos os direitos reservados. | <a href="politicas.html">Políticas de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
+

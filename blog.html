@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Instituto Lumiar</title>
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader"></div>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Instituto Lumiar</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="matricula.html" class="cta-nav">Matrícula</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Blog e Notícias</h1>
+            <p>Fique por dentro das novidades e dicas sobre educação profissional</p>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="categories">
+                <button class="category-btn active" data-category="all">Todas</button>
+                <button class="category-btn" data-category="educacao">Educação</button>
+                <button class="category-btn" data-category="carreira">Carreira</button>
+                <button class="category-btn" data-category="eventos">Eventos</button>
+                <button class="category-btn" data-category="dicas">Dicas</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaque -->
+    <section class="featured-post">
+        <div class="container">
+            <div class="featured-content">
+                <div class="featured-image">
+                    <div class="image-placeholder">📰</div>
+                </div>
+                <div class="featured-text">
+                    <span class="post-category">Educação</span>
+                    <h2>Como Escolher o Curso Técnico Ideal para Sua Carreira</h2>
+                    <p class="post-excerpt">Descubra os principais fatores a considerar na hora de escolher um curso técnico que alinhe com seus objetivos profissionais e perfil pessoal.</p>
+                    <div class="post-meta">
+                        <span>📅 15 de Janeiro, 2024</span>
+                        <span>👤 Por Equipe Lumiar</span>
+                    </div>
+                    <a href="#" class="btn-read-more">Ler Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lista de Posts -->
+    <section class="posts-section">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="post-card" data-category="carreira">
+                    <div class="post-image">
+                        <div class="image-placeholder">💼</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Carreira</span>
+                        <h3>5 Tendências do Mercado de Trabalho em 2024</h3>
+                        <p class="post-excerpt">Conheça as principais tendências que estão moldando o mercado de trabalho e como se preparar para as oportunidades.</p>
+                        <div class="post-meta">
+                            <span>📅 10 de Janeiro, 2024</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card" data-category="eventos">
+                    <div class="post-image">
+                        <div class="image-placeholder">🎓</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Eventos</span>
+                        <h3>Feira de Profissões 2024: Confira os Destaques</h3>
+                        <p class="post-excerpt">Relato completo da nossa Feira de Profissões, com palestras, workshops e oportunidades de networking.</p>
+                        <div class="post-meta">
+                            <span>📅 5 de Janeiro, 2024</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card" data-category="dicas">
+                    <div class="post-image">
+                        <div class="image-placeholder">💡</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Dicas</span>
+                        <h3>Como Organizar seus Estudos: Guia Completo</h3>
+                        <p class="post-excerpt">Técnicas e estratégias comprovadas para melhorar seu rendimento nos estudos e alcançar melhores resultados.</p>
+                        <div class="post-meta">
+                            <span>📅 28 de Dezembro, 2023</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="post-card" data-category="educacao">
+                    <div class="post-image">
+                        <div class="image-placeholder">📚</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Educação</span>
+                        <h3>A Importância da Educação Técnica no Brasil</h3>
+                        <p class="post-excerpt">Entenda como a educação técnica profissionalizante contribui para o desenvolvimento econômico e social do país.</p>
+                        <div class="post-meta">
+                            <span>📅 20 de Dezembro, 2023</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="post-card" data-category="carreira">
+                    <div class="post-image">
+                        <div class="image-placeholder">🚀</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Carreira</span>
+                        <h3>Networking: Como Construir uma Rede Profissional</h3>
+                        <p class="post-excerpt">Dicas práticas para desenvolver relacionamentos profissionais que podem abrir portas na sua carreira.</p>
+                        <div class="post-meta">
+                            <span>📅 15 de Dezembro, 2023</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+
+                <!-- Post 6 -->
+                <article class="post-card" data-category="dicas">
+                    <div class="post-image">
+                        <div class="image-placeholder">✅</div>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Dicas</span>
+                        <h3>Preparando-se para Entrevistas de Emprego</h3>
+                        <p class="post-excerpt">Guia completo com tudo que você precisa saber para se destacar em entrevistas de emprego e conseguir a vaga dos sonhos.</p>
+                        <div class="post-meta">
+                            <span>📅 10 de Dezembro, 2023</span>
+                        </div>
+                        <a href="#" class="btn-read-more">Ler Mais</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Paginação -->
+            <div class="pagination">
+                <button class="page-btn">Anterior</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">Próxima</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Receba Nossas Novidades</h2>
+                <p>Cadastre-se para receber artigos, dicas e notícias diretamente no seu e-mail</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn-newsletter">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Instituto Lumiar</h3>
+                    <p>Formando profissionais preparados para o futuro</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>📱 (11) 98765-4321</p>
+                    <p>✉️ contato@institutolumiar.edu.br</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Instituto Lumiar. Todos os direitos reservados. | <a href="politicas.html">Políticas de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
+

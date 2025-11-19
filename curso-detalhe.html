@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Curso - Instituto Lumiar</title>
+    <link rel="stylesheet" href="styles/curso-detalhe.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader"></div>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Instituto Lumiar</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="matricula.html" class="cta-nav">Matrícula</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero do Curso -->
+    <section class="course-hero" id="course-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Início</a> / <a href="cursos.html">Cursos</a> / <span id="breadcrumb-course">Curso</span>
+            </div>
+            <div class="course-hero-content">
+                <div class="course-title-section">
+                    <span class="course-category" id="course-category">Técnico</span>
+                    <h1 id="course-name">Nome do Curso</h1>
+                    <p class="course-subtitle" id="course-subtitle">Descrição breve do curso</p>
+                </div>
+                <div class="course-quick-info">
+                    <div class="info-item">
+                        <div class="info-icon">⏱</div>
+                        <div class="info-content">
+                            <strong>Duração</strong>
+                            <span id="course-duration">18 meses</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">💻</div>
+                        <div class="info-content">
+                            <strong>Modalidade</strong>
+                            <span id="course-modality">Presencial</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📋</div>
+                        <div class="info-content">
+                            <strong>Carga Horária</strong>
+                            <span id="course-hours">1200h</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🎓</div>
+                        <div class="info-content">
+                            <strong>Certificação</strong>
+                            <span>Reconhecida pelo MEC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <section class="course-content">
+        <div class="container">
+            <div class="content-layout">
+                <!-- Conteúdo Principal -->
+                <div class="main-content">
+                    <!-- Descrição -->
+                    <div class="content-block">
+                        <h2>Sobre o Curso</h2>
+                        <div id="course-description">
+                            <p>Este curso oferece uma formação completa e atualizada, preparando você para os desafios do mercado de trabalho atual. Com metodologia prática e professores especializados, você desenvolverá as competências necessárias para se destacar na sua área de atuação.</p>
+                        </div>
+                    </div>
+
+                    <!-- O Que Você Vai Aprender -->
+                    <div class="content-block">
+                        <h2>O Que Você Vai Aprender</h2>
+                        <ul class="learning-list" id="course-learning">
+                            <li>Conhecimentos fundamentais da área</li>
+                            <li>Técnicas práticas e aplicadas</li>
+                            <li>Ferramentas profissionais</li>
+                            <li>Desenvolvimento de projetos reais</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grade Curricular -->
+                    <div class="content-block">
+                        <h2>Grade Curricular</h2>
+                        <div class="curriculum" id="course-curriculum">
+                            <div class="curriculum-module">
+                                <h3>Módulo 1: Fundamentos</h3>
+                                <ul>
+                                    <li>Introdução à área</li>
+                                    <li>Conceitos básicos</li>
+                                    <li>Histórico e evolução</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-module">
+                                <h3>Módulo 2: Aprofundamento</h3>
+                                <ul>
+                                    <li>Técnicas intermediárias</li>
+                                    <li>Ferramentas e recursos</li>
+                                    <li>Práticas aplicadas</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-module">
+                                <h3>Módulo 3: Especialização</h3>
+                                <ul>
+                                    <li>Técnicas avançadas</li>
+                                    <li>Projetos práticos</li>
+                                    <li>Preparação para o mercado</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pré-requisitos -->
+                    <div class="content-block">
+                        <h2>Pré-requisitos</h2>
+                        <div id="course-prerequisites">
+                            <p>Ensino médio completo ou em andamento. Não é necessário conhecimento prévio na área.</p>
+                        </div>
+                    </div>
+
+                    <!-- Por Que Escolher Este Curso -->
+                    <div class="content-block">
+                        <h2>Por Que Escolher Este Curso?</h2>
+                        <div class="reasons-grid" id="course-reasons">
+                            <div class="reason-item">
+                                <div class="reason-icon">✅</div>
+                                <h4>Professores Especializados</h4>
+                                <p>Corpo docente com experiência prática no mercado</p>
+                            </div>
+                            <div class="reason-item">
+                                <div class="reason-icon">✅</div>
+                                <h4>Metodologia Prática</h4>
+                                <p>Aprenda fazendo com projetos reais</p>
+                            </div>
+                            <div class="reason-item">
+                                <div class="reason-icon">✅</div>
+                                <h4>Certificação Reconhecida</h4>
+                                <p>Diploma válido em todo território nacional</p>
+                            </div>
+                            <div class="reason-item">
+                                <div class="reason-icon">✅</div>
+                                <h4>Suporte Completo</h4>
+                                <p>Acompanhamento durante todo o curso</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimentos -->
+                    <div class="content-block">
+                        <h2>Depoimentos de Alunos</h2>
+                        <div class="testimonials-grid" id="course-testimonials">
+                            <div class="testimonial-item">
+                                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                                <p>"Este curso mudou minha vida profissional. Os professores são excelentes e o conteúdo é muito atualizado."</p>
+                                <div class="testimonial-author">
+                                    <strong>Maria Silva</strong>
+                                    <span>Ex-aluna</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                                <p>"Consegui meu primeiro emprego na área logo após concluir o curso. Recomendo muito!"</p>
+                                <div class="testimonial-author">
+                                    <strong>João Santos</strong>
+                                    <span>Ex-aluno</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="sidebar-card cta-card">
+                        <h3>Interessado no Curso?</h3>
+                        <p>Faça sua matrícula agora e garanta sua vaga!</p>
+                        <a href="matricula.html" class="btn-enroll">Inscreva-se Agora</a>
+                        <div class="cta-info">
+                            <p>📞 Dúvidas? Ligue: (11) 1234-5678</p>
+                            <p>📱 WhatsApp: (11) 98765-4321</p>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Informações do Curso</h3>
+                        <div class="info-list">
+                            <div class="info-row">
+                                <strong>Duração:</strong>
+                                <span id="sidebar-duration">18 meses</span>
+                            </div>
+                            <div class="info-row">
+                                <strong>Modalidade:</strong>
+                                <span id="sidebar-modality">Presencial</span>
+                            </div>
+                            <div class="info-row">
+                                <strong>Carga Horária:</strong>
+                                <span id="sidebar-hours">1200h</span>
+                            </div>
+                            <div class="info-row">
+                                <strong>Certificação:</strong>
+                                <span>Reconhecida pelo MEC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Outros Cursos</h3>
+                        <ul class="related-courses">
+                            <li><a href="curso-detalhe.html?curso=administracao">Administração Empresarial</a></li>
+                            <li><a href="curso-detalhe.html?curso=design">Design Gráfico</a></li>
+                            <li><a href="curso-detalhe.html?curso=mecanica">Mecânica Automotiva</a></li>
+                            <li><a href="cursos.html">Ver Todos os Cursos</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Pronto para Começar?</h2>
+            <p>Transforme sua carreira com o Instituto Lumiar</p>
+            <a href="matricula.html" class="btn btn-large">Fazer Matrícula Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Instituto Lumiar</h3>
+                    <p>Formando profissionais preparados para o futuro</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>📱 (11) 98765-4321</p>
+                    <p>✉️ contato@institutolumiar.edu.br</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Instituto Lumiar. Todos os direitos reservados. | <a href="politicas.html">Políticas de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="curso-detalhe.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
+

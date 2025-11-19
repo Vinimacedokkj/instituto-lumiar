@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe - Instituto Lumiar</title>
+    <link rel="stylesheet" href="styles/equipe.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader"></div>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Instituto Lumiar</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="equipe.html" class="active">Equipe</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="matricula.html" class="cta-nav">Matrícula</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Nossa Equipe</h1>
+            <p>Conheça os profissionais que fazem a diferença na sua formação</p>
+        </div>
+    </section>
+
+    <!-- Filtros -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="coordenacao">Coordenação</button>
+                <button class="filter-btn" data-filter="professores">Professores</button>
+                <button class="filter-btn" data-filter="administrativo">Administrativo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section class="team-section">
+        <div class="container">
+            <!-- Coordenação -->
+            <div class="team-category">
+                <h2 class="category-title">Coordenação</h2>
+                <div class="team-grid">
+                    <div class="team-card" data-role="coordenacao">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👨‍💼</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Prof. Dr. Carlos Mendes</h3>
+                            <p class="team-role">Diretor Geral</p>
+                            <p class="team-bio">Doutor em Educação pela USP, com mais de 25 anos de experiência em gestão educacional.</p>
+                            <div class="team-contact">
+                                <span>✉️ carlos.mendes@institutolumiar.edu.br</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="coordenacao">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👩‍💼</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Profa. Dra. Ana Paula Rodrigues</h3>
+                            <p class="team-role">Diretora Acadêmica</p>
+                            <p class="team-bio">Doutora em Pedagogia, mestre em Metodologias de Ensino. Especialista em educação profissional.</p>
+                            <div class="team-contact">
+                                <span>✉️ ana.rodrigues@institutolumiar.edu.br</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="coordenacao">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👨‍🎓</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Prof. Roberto Silva</h3>
+                            <p class="team-role">Coordenador de Cursos Técnicos</p>
+                            <p class="team-bio">Engenheiro com especialização em Educação Profissional. Mais de 15 anos na coordenação de cursos.</p>
+                            <div class="team-contact">
+                                <span>✉️ roberto.silva@institutolumiar.edu.br</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professores -->
+            <div class="team-category">
+                <h2 class="category-title">Corpo Docente</h2>
+                <div class="team-grid">
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👨‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Prof. João Oliveira</h3>
+                            <p class="team-role">Informática</p>
+                            <p class="team-bio">Engenheiro de Software com 10 anos de experiência. Especialista em desenvolvimento web e mobile.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👩‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Profa. Maria Santos</h3>
+                            <p class="team-role">Administração</p>
+                            <p class="team-bio">Mestre em Administração de Empresas. Consultora empresarial com vasta experiência em gestão.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👨‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Prof. Pedro Costa</h3>
+                            <p class="team-role">Design Gráfico</p>
+                            <p class="team-bio">Designer gráfico premiado. Mais de 12 anos criando identidades visuais para grandes marcas.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👩‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Profa. Juliana Ferreira</h3>
+                            <p class="team-role">Enfermagem</p>
+                            <p class="team-bio">Enfermeira com especialização em UTI. Experiência em hospitais de referência nacional.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👨‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Prof. Fernando Alves</h3>
+                            <p class="team-role">Mecânica Automotiva</p>
+                            <p class="team-bio">Mecânico especializado em sistemas eletrônicos automotivos. Proprietário de oficina há 15 anos.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="professores">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👩‍🏫</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Profa. Camila Lima</h3>
+                            <p class="team-role">Gastronomia</p>
+                            <p class="team-bio">Chef de cozinha formada no exterior. Experiência em restaurantes de alta gastronomia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Administrativo -->
+            <div class="team-category">
+                <h2 class="category-title">Equipe Administrativa</h2>
+                <div class="team-grid">
+                    <div class="team-card" data-role="administrativo">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👤</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Patrícia Souza</h3>
+                            <p class="team-role">Secretária Acadêmica</p>
+                            <p class="team-bio">Responsável pelo atendimento aos alunos e organização acadêmica.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-role="administrativo">
+                        <div class="team-photo">
+                            <div class="photo-placeholder">👤</div>
+                        </div>
+                        <div class="team-info">
+                            <h3>Ricardo Martins</h3>
+                            <p class="team-role">Financeiro</p>
+                            <p class="team-bio">Gerencia questões financeiras e bolsas de estudo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Instituto Lumiar</h3>
+                    <p>Formando profissionais preparados para o futuro</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>📱 (11) 98765-4321</p>
+                    <p>✉️ contato@institutolumiar.edu.br</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Instituto Lumiar. Todos os direitos reservados. | <a href="politicas.html">Políticas de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
+
