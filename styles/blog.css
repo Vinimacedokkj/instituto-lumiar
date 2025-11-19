@@ -23,12 +23,17 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: var(--brown-beige);
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -211,6 +216,10 @@ body {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .post-meta {
@@ -285,6 +294,10 @@ body {
 .post-content .post-excerpt {
     font-size: 0.95rem;
     margin-bottom: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .post-content .post-meta {
@@ -455,6 +468,14 @@ body {
 
     .page-hero h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .page-hero p {
+        font-size: 1.1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .featured-content {
@@ -463,6 +484,8 @@ body {
 
     .featured-text h2 {
         font-size: 1.8rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .posts-grid {
@@ -471,6 +494,10 @@ body {
 
     .newsletter-form {
         flex-direction: column;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 

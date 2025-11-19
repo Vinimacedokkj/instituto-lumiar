@@ -23,12 +23,17 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: var(--brown-beige);
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -157,6 +162,10 @@ body {
     color: var(--text-light);
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .history-stats {
@@ -226,6 +235,10 @@ body {
     color: var(--text-light);
     line-height: 1.8;
     font-size: 1.05rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .mv-card ul {
@@ -238,6 +251,10 @@ body {
     padding-left: 1.5rem;
     position: relative;
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .mv-card ul li::before {
@@ -314,6 +331,10 @@ body {
     color: var(--text-light);
     font-size: 0.95rem;
     line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 /* Estrutura Física */
@@ -356,6 +377,10 @@ body {
 .facility-card p {
     color: var(--text-light);
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 /* Certificações */
@@ -387,6 +412,10 @@ body {
     line-height: 1.8;
     font-size: 1.05rem;
     margin-bottom: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .cert-badges {
@@ -543,6 +572,20 @@ body {
 
     .page-hero h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .page-hero p {
+        font-size: 1.1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .history-content,
@@ -558,6 +601,19 @@ body {
     .leadership-grid,
     .facilities-grid {
         grid-template-columns: 1fr;
+    }
+
+    .history-text p,
+    .mv-card p,
+    .mv-card ul li,
+    .leader-bio,
+    .facility-card p,
+    .cert-text p {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 

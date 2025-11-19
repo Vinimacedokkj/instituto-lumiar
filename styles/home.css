@@ -23,12 +23,16 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -365,6 +369,10 @@ body {
     color: var(--text-light);
     margin-bottom: 1rem;
     font-size: 0.95rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .course-info {
@@ -460,6 +468,10 @@ body {
 .benefit-item p {
     color: var(--text-light);
     font-size: 0.95rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 /* Depoimentos */
@@ -505,6 +517,10 @@ body {
     margin-bottom: 1.5rem;
     color: var(--text-light);
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .testimonial-author {
@@ -620,6 +636,10 @@ body {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .about-image {
@@ -733,10 +753,14 @@ body {
 
     .hero-title {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .hero-subtitle {
         font-size: 1.2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .about-content {
@@ -745,6 +769,22 @@ body {
 
     .courses-grid {
         grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 

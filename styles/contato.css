@@ -23,12 +23,17 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: var(--brown-beige);
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -233,6 +238,10 @@ body {
     color: var(--text-light);
     line-height: 1.8;
     margin-bottom: 0.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .info-card p strong {
@@ -420,6 +429,14 @@ body {
 
     .page-hero h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .page-hero p {
+        font-size: 1.1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .form-row {
@@ -428,6 +445,16 @@ body {
 
     .contact-form-container {
         padding: 2rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 

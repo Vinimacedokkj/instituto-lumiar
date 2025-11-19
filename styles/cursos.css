@@ -23,12 +23,17 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: var(--brown-beige);
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -238,6 +243,10 @@ body {
     line-height: 1.7;
     margin-bottom: 1.5rem;
     font-size: 0.95rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .course-meta {
@@ -399,6 +408,14 @@ body {
 
     .page-hero h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .page-hero p {
+        font-size: 1.1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .courses-grid {
@@ -413,6 +430,10 @@ body {
 
     .filter-btn {
         white-space: nowrap;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 

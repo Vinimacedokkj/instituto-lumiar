@@ -23,12 +23,17 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     background: var(--brown-beige);
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Navegação */
@@ -147,6 +152,10 @@ body {
     font-size: 1.3rem;
     color: var(--brown-cream);
     line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .course-quick-info {
@@ -224,6 +233,10 @@ body {
     line-height: 1.8;
     font-size: 1.05rem;
     margin-bottom: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .learning-list {
@@ -335,6 +348,10 @@ body {
     font-style: italic;
     margin-bottom: 1rem;
     line-height: 1.8;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .testimonial-author {
@@ -596,10 +613,20 @@ body {
 
     .course-title-section h1 {
         font-size: 2rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .main-content {
         padding: 1.5rem;
+    }
+
+    .course-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding: 0 15px;
     }
 }
 
